@@ -2,7 +2,7 @@ package com.studentmanagementsystems.model;
 
 import java.text.DecimalFormat;
 
-public abstract class Item {
+public abstract class User {
     /*
     Here and force I will stack my methods on the top of each class
     */
@@ -28,12 +28,12 @@ public abstract class Item {
     private double price;
     private double numberOfItems;
 
-    public Item(String name, double price) {
+    public User(String name, double price) {
         this.name = name;
         this.price = price;
     }
 
-    public Item(){
+    public User(){
 
     }
     public String getName() {

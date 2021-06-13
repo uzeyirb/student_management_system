@@ -1,6 +1,6 @@
 package com.studentmanagementsystems.service;
 
-public interface CafeService {
+public interface studentService {
     void getInventory(); //have here map string
     void addToAccountBalance();
     void giveChangeAndPrintReceipt();

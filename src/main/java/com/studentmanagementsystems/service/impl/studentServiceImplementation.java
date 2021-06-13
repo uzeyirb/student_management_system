@@ -1,8 +1,8 @@
 package com.studentmanagementsystems.service.impl;
 
-import com.studentmanagementsystems.service.CafeService;
+import com.studentmanagementsystems.service.studentService;
 
-public class CafeServiceImplementation implements CafeService {
+public class studentServiceImplementation implements studentService {
 
     @Override
     public void getInventory() {
